@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #ff0000, #ffff00);
+    /* background-attachment: fixed; */
+    
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 20px;
+}
+
+form {
+    margin: 20px;
+}

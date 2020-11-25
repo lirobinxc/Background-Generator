@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Maker</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Background Gradient Maker</h1>
+    </header>
+    <div>
+        <input id="color1" type="color">
+        <input id="color2" type="color">
+    </div>
+    <form>
+        <div>
+            <input type="radio" name="direction" id="dL" value="to left">
+            <label for="dL">To Left</label>
+        </div>
+        <div>
+            <input type="radio" name="direction" id="dR" value="to right" checked>
+            <label for="dR">To Right</label>
+        </div>
+        <div>
+            <input type="radio" name="direction" id="dB" value="to bottom">
+            <label for="dB">To Bottom</label>
+        </div>
+    </form>
+    <div>
+        <p><input id="codeBox" type="text" readonly></p>
+        <button id="copyButton">Copy background CSS code</button>
+    </div>
+</body>
+</html>
