@@ -20,6 +20,7 @@ const directionRadio = function () {
   return dB.value;
 };
 
+// Just a random comment
 console.log(color1.value);
 
 dL.addEventListener('change', changeBG);
