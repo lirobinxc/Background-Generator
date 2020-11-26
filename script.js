@@ -1,4 +1,8 @@
 /* eslint-disable no-use-before-define */
+var _ = require('lodash');
+
+let testArr = [1, 2, 3, 4]
+console.log('testing _without', _.without(testArr, 3));
 const color1 = document.querySelector('#color1');
 const color2 = document.querySelector('#color2');
 const body = document.querySelector('body');
